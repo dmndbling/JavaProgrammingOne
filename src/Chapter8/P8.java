@@ -1,15 +1,15 @@
-
 package Chapter8;
+
 import java.util.*;
+
 /**
  * Program to create a chart of employees
  *
  * @author Cristian Ortiz
  */
-
-
 public class P8 {
-     /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -37,7 +37,8 @@ public class P8 {
         System.out.println("C [" + sales[2][0] + " " + sales[2][1] + " " + sales[2][2] + " " + sales[2][3] + " " + sales[2][4] + "]");
         System.out.println("D [" + sales[3][0] + " " + sales[3][1] + " " + sales[3][2] + " " + sales[3][3] + " " + sales[3][4] + "]");
     }
-     /**
+
+    /**
      * method to fill array
      *
      * @param names holds the names in a list
@@ -51,9 +52,10 @@ public class P8 {
         Scanner input = new Scanner(System.in);
         int row = java.util.Arrays.binarySearch(names, nc);
         int column = 0;
-        for(int i = 0; i < days.length; ++i){
-           if(days[i].equals(dc))
-               column = i;
+        for (int i = 0; i < days.length; ++i) {
+            if (days[i].equals(dc)) {
+                column = i;
+            }
         }
         System.out.println("Enter a new sales: ");
         double price = input.nextDouble();

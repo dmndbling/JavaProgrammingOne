@@ -7,7 +7,6 @@ import java.util.*;
  *
  * @author Cristian Ortiz
  */
-
 public class C8_4 {
 
     /**
@@ -49,7 +48,6 @@ public class C8_4 {
      * method to sort the numbers
      *
      * @param array holds all the numbers
-     * @return sorted chart
      */
     public static void sort(int[] array) {
         int[] ind = new int[8], ind2 = new int[8];

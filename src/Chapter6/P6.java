@@ -1,12 +1,12 @@
 package Chapter6;
+
 import java.util.Scanner;
+
 /**
  * Program to convert currency to dollars
  *
  * @author Cristian Ortiz
  */
-
-
 public class P6 {
 
     /**

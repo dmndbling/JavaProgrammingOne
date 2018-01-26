@@ -32,8 +32,7 @@ public class P7 {
      * method to fill array
      *
      * @param elements the numbers that are in the array
-     * @param Scanner input takes input from user
-     * @return a filled array
+     * @param input input takes input from user
      */
     public static void fillArray(int[] elements, Scanner input) {
         System.out.print("Enter " + elements.length + " elements: ");
@@ -43,7 +42,7 @@ public class P7 {
     }
 
     /**
-     *method to average arrays
+     * method to average arrays
      *
      * @param elements the numbers that are in the array
      * @param amount amount of elements being used
@@ -63,8 +62,6 @@ public class P7 {
      * method to display arrays
      *
      * @param elements number of elements being used
-     * @param Scanner input takes input from user
-     * @return display array
      */
     public static void displayArray(int[] elements) {
         System.out.print("\nThis is the contents of the array " + Arrays.toString(elements));
