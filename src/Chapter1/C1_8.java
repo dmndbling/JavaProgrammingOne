@@ -1,4 +1,4 @@
-package Chapte1;
+package Chapter1;
 
 /**
  * Program to display the answer of (2 * 5.5 * 3.14) and (5.5 * 5.5 * 3.14) to

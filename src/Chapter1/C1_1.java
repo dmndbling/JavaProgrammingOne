@@ -1,4 +1,4 @@
-package Chapte1;
+package Chapter1;
 
 /**
  * Program to display "Welcome to Java", "Welcome to Computer Science",
